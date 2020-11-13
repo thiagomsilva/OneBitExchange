@@ -1,24 +1,21 @@
-# README
+# OneBitExchange
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação desenvolvida para conversão de moedas integrada com a API `https://currencydatafeed.com`
 
-Things you may want to cover:
+# Desenvolvimento
 
-* Ruby version
+- Ruby On Rails
+- PostgreSQL
+- Docker
+- Docker Compose
+- Yarn
+- Testes: RSpec
 
-* System dependencies
+# Deploy
 
-* Configuration
+- Codeship
+- Heroku
 
-* Database creation
+# Aplicação disponível em:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://onebitexchangeprod.herokuapp.com
