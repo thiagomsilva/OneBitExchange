@@ -1,6 +1,25 @@
 # OneBitExchange
 
-Aplicação desenvolvida para conversão de moedas integrada com a API `https://currencydatafeed.com`
+Aplicação desenvolvida para conversão de moedas online, integrada com a API `https://currencydatafeed.com`
+
+# Instalação
+
+```
+docker-compose build
+```
+
+# Iniciar o servidor e acessar no navegador http://localhost:3000
+
+```
+docker-compose up
+```
+
+# Testes (Rspec)
+
+```
+docker-compose run --rm app bundle exec rspec spec/services/exchange_service_spec.rb
+docker-compose run --rm app bundle exec rspec spec/requests/exchanges_request_spec.rb
+```
 
 # Desenvolvimento
 
@@ -11,11 +30,11 @@ Aplicação desenvolvida para conversão de moedas integrada com a API `https://
 - Yarn
 - Testes: RSpec
 
-# Deploy
+# Deploy automatizado
 
 - Codeship
 - Heroku
 
-# Aplicação disponível em:
+# Aplicação disponível em produção:
 
 https://onebitexchangeprod.herokuapp.com
