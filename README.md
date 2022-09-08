@@ -2,26 +2,30 @@
 
 Aplicação desenvolvida para conversão de moedas online, integrada com a API `https://currencydatafeed.com`
 
-# Instalação
+## Instalação
 
 ```
 docker-compose build
 ```
 
-# Iniciar o servidor e acessar no navegador http://localhost:3000
+## Iniciar o servidor
 
 ```
 docker-compose up
 ```
 
-# Testes (Rspec)
+## Acessar no navegador
+
+http://localhost:3000
+
+## Testes (Rspec)
 
 ```
 docker-compose run --rm app bundle exec rspec spec/services/exchange_service_spec.rb
 docker-compose run --rm app bundle exec rspec spec/requests/exchanges_request_spec.rb
 ```
 
-# Desenvolvimento
+## Desenvolvimento
 
 - Ruby On Rails
 - PostgreSQL
@@ -30,11 +34,11 @@ docker-compose run --rm app bundle exec rspec spec/requests/exchanges_request_sp
 - Yarn
 - Testes: RSpec
 
-# Deploy automatizado
+## Deploy automatizado
 
 - Codeship
 - Heroku
 
-# Aplicação disponível em produção:
+## Aplicação disponível em produção:
 
 https://onebitexchangeprod.herokuapp.com
