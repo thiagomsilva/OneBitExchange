@@ -8,6 +8,12 @@ Aplicação desenvolvida para conversão de moedas online, integrada com a API `
 docker-compose build
 ```
 
+## Criar o banco de dados e rodar a migration
+
+```
+docker-compose run --rm app bundle exec rails db:create db:migrate
+```
+
 ## Iniciar o servidor
 
 ```
