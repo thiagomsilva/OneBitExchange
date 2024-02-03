@@ -2,6 +2,10 @@
 
 Aplicação desenvolvida para conversão de moedas online, integrada com a API `https://currencydatafeed.com`
 
+## Aplicação disponível em produção:
+
+https://onebitexchageprod.onrender.com
+
 ## Instalação
 
 ```
@@ -42,9 +46,4 @@ docker-compose run --rm app bundle exec rspec spec/requests/exchanges_request_sp
 
 ## Deploy automatizado
 
-- Codeship
-- Heroku
-
-## Aplicação disponível em produção:
-
-https://onebitexchangeprod.herokuapp.com
+- Render
